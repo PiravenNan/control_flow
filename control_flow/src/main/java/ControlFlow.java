@@ -1,4 +1,3 @@
-import java.time.temporal.UnsupportedTemporalTypeException;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -57,13 +56,10 @@ public class ControlFlow {
                 System.out.println("and wear sun cream");
             }
         }
-
-
     }
 
     public static void main(String[] args) {
         guessingGame();
         whatShouldIWear();
     }
-
 }
